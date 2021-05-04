@@ -1,5 +1,5 @@
-const Joi = require('joi'); // Input validation
-const express = require('express'); // Easier requests
+const Joi = require('joi');
+const express = require('express');
 const app = express();
 
 app.use(express.json());
